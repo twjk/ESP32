@@ -8,7 +8,7 @@ body:
       label: Answers checklist.
       description: Before submitting a new issue, please follow the checklist and try to find the answer.
       options:
-        - label: I  have read the documentation [XiaoZhi AI Programming Guide](https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb) and the issue is not addressed there.
+        - label: I  have read the documentation [ESPChat AI Programming Guide](https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb) and the issue is not addressed there.
           required: true
         - label: I have updated my firmware to the latest version and checked that the issue is present there.
           required: true

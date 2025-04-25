@@ -1,8 +1,12 @@
-menu "Xiaozhi Assistant"
-
+menu "ESP Chat Assistant"
+config WEBSOCKET_URL
+    string "Websocket URL"
+    default "ws://62.234.36.202:8000/xiaozhi/v1/"
+    help
+        Communication with the server through websocket after wake up.
 config OTA_URL
     string "Default OTA URL"
-    default "https://api.tenclass.net/xiaozhi/ota/"
+    default "http://62.234.36.202:8002/xiaozhi/ota/"
     help
         The application will access this URL to check for new firmwares and server address.
 
